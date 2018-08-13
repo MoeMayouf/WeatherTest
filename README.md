@@ -11,15 +11,15 @@
 
 # Architecture:
 
-_I chose MVP for this project. In addition to the defining characteristics of this pattern, my familiarity with it helped me to prototype in a fast and efficient manner as the task was timed to about four hours. This also allowed me to write modular, concise and testable code with a great degree of separation of Concerns. As the project&#39;s scope grows, Clean architecture can be slowly introduced, with MVP governing the presentation layer to enable further separation of concerns and prevent code-reuse._
+I chose MVP for this project. In addition to the defining characteristics of this pattern, my familiarity with it helped me to prototype in a fast and efficient manner as the task was timed to about four hours. This also allowed me to write modular, concise and testable code with a great degree of separation of Concerns. As the project&#39;s scope grows, Clean architecture can be slowly introduced, with MVP governing the presentation layer to enable further separation of concerns and prevent code-reuse._
 
 # Dependency Injection:
 
-_I used Dagger to provide Dependency Injection. It further aided with the vision of a clean, testable project. Elements that would need a wider availability are properly scoped as singletons and are injected at app level. Modules are logically grouped based on the functional traits of the contained dependencies. AppComponent is exposed from the Application class for the activity to initialise and use Dagger._
+I used Dagger to provide Dependency Injection. It further aided with the vision of a clean, testable project. Elements that would need a wider availability are properly scoped as singletons and are injected at app level. Modules are logically grouped based on the functional traits of the contained dependencies. AppComponent is exposed from the Application class for the activity to initialise and use Dagger.
 
-# Network_:_
+# Network:
 
-_I used Retrofit for the network layer. Serialisation and Deserialisation is done with Gson and RxJava converter is used enable integration with Rx framework. A logger is implemented for debugging purposes with log level set to Basic._
+I used Retrofit for the network layer. Serialisation and Deserialisation is done with Gson and RxJava converter is used enable integration with Rx framework. A logger is implemented for debugging purposes with log level set to Basic._
 
 # Database:
 
