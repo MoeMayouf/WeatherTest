@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- item forecast -->
+    <dimen name="margin_item_forecast">16dp</dimen>
+    <dimen name="padding_item_forecast">16dp</dimen>
+    <dimen name="icon_size_item_forecast">60dp</dimen>
+    <dimen name="font_size_item_forecast">20sp</dimen>
+    <dimen name="card_corner_radius_item_forecast">5dp</dimen>
+
+</resources>

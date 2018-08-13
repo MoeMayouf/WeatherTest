@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">OpenWeatherMapForecast</string>
+    <string name="icon_content_description">An Icon to Indicate The State of Current Weather</string>
+</resources>
